@@ -6,7 +6,7 @@ title: Home
 <div class="row">
   <div class="col-md-10" role="main">
 
-    <div class="page-header" id="projects"><h1>Portfolio</h1></div>
+    <div class="page-header" id="portfolio"><h1>Portfolio</h1></div>
 
     {% for post in site.posts %}
     <div class="col-md-6">
@@ -46,7 +46,7 @@ title: Home
     <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top">
       <ul class="nav bs-docs-sidenav">
         <li class="active">
-          <a href="#top">Projects</a>
+          <a href="#top">Portfolio</a>
           <ul class="nav">
             {% for post in site.posts %}
             <li class><a href="#{{ post.id }}">{{ post.title }}</a></li>
